@@ -1,0 +1,3 @@
+CREATE TABLE customers (id SERIAL PRIMARY KEY, first_name VARCHAR(64) NOT NULL, last_name VARCHAR(64) NOT NULL,
+        email VARCHAR(64) UNIQUE NOT NULL, phone VARCHAR(64) NOT NULL, country VARCHAR(64) NOT NULL, city VARCHAR(64) NOT NULL, zipcode
+        VARCHAR(10) NOT NULL, street_number VARCHAR(99) NOT NULL);
